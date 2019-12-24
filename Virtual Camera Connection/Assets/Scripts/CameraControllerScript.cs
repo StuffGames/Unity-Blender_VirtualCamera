@@ -15,7 +15,11 @@ public class CameraControllerScript : MonoBehaviour
     {
         gyro = Input.gyro;
         gyro.enabled = true;
-        gObject = new GameObject("Camera Container");
+        gObject = new GameObject("Camera Conatiner");
+        if (transform.parent != null)
+        {
+            gObject.transform.SetParent(transform.parent);
+        }
         gObject.transform.position = transform.position;
         transform.SetParent(gObject.transform);
         gObject.transform.rotation = Quaternion.Euler(90f,90f,0);
@@ -24,7 +28,7 @@ public class CameraControllerScript : MonoBehaviour
     void Update()
     {
         GyroModifyCamera();
-        Debug.Log(gyro.gravity);
+        //Debug.Log(gyro.gravity);
         transform.localRotation = gyro.attitude * new Quaternion(0,0,1,0);
     }
 
