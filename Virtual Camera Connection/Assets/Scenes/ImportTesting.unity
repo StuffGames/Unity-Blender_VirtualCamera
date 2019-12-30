@@ -2529,6 +2529,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.000013630412
       objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: 9c59229bc1bb1e24a9a6b4d2167af436,
+        type: 3}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4224801822505238522, guid: 9c59229bc1bb1e24a9a6b4d2167af436,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4641523332801898671, guid: 9c59229bc1bb1e24a9a6b4d2167af436,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3129,7 +3139,8 @@ Animation:
   m_Enabled: 0
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: bf46b7af1cbf08b408f9a0efe7b53f8a, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: bf46b7af1cbf08b408f9a0efe7b53f8a, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -3184,6 +3195,38 @@ MonoBehaviour:
   animControl: {fileID: 738406106}
   anim: {fileID: 7400000, guid: bf46b7af1cbf08b408f9a0efe7b53f8a, type: 2}
   placementText: {fileID: 622908403}
+  animCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  textFile: {fileID: 4900000, guid: 6e3cbb5e70f9e8843b5e79d1b11b2556, type: 3}
+  frameStop: 100
+  keyFrames: []
+  curves: []
+  xKeys: []
+  yKeys: []
+  zKeys: []
+  wKeys: []
 --- !u!1 &1814419668
 GameObject:
   m_ObjectHideFlags: 0
