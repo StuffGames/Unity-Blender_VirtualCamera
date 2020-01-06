@@ -16,7 +16,7 @@ public class AnimationControlScript : MonoBehaviour
 
     public int frameStop; //Frame to stop the recording
     private bool timeToPlay = false; //Used to control when to start and stop recording
-    private string path = @"C:\Program Files (x86)\Steam\steamapps\common\Blender\QuaternionKeyFrameValues.txt"; //Directory to text file
+    private string path = @"C:\Users\juans\AppData\Roaming\Blender Foundation\Blender\2.81\scripts\addons\VC_Connection Blender\QuaternionKeyFrameValues.txt";//"C:\Program Files (x86)\Steam\steamapps\common\Blender\QuaternionKeyFrameValues.txt"; //Directory to text file
     public List<Quaternion> keyFrames = new List<Quaternion>(); //Holds overall Quaternion rotation values for each frame
     public List<AnimationCurve> curves = new List<AnimationCurve>(); //Holds the animation curves for each value of the Quaternion rotation values
     public List<Vector2> xKeys = new List<Vector2>(); //Holds the frame and value of the x value of the Quaternion rotation
