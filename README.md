@@ -3,6 +3,8 @@
 
 There is a bit of setup to do to get the project working properly but it is not too much.
 
+For more info and proper details head over to the Wiki page.
+
 # REQUIREMENTS:
 - Unity Editor
 - Blender
